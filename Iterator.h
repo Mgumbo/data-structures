@@ -4,10 +4,10 @@
  * Date Completed: 13 April 2016
  *
  * Description: A header file defining a customized Iterator class
- *				that can be used to iterate through the custom
- *				LinkedList class. So it can function properly for
- *				the LinkedList class, this Iterator is implemented
- *				as a bidirectional iterator.
+ *		that can be used to iterate through the custom
+ *		LinkedList class. So it can function properly for
+ *		the LinkedList class, this Iterator is implemented
+ *		as a bidirectional iterator.
  ******************************************************************/
 #ifndef _ITERATOR_H_
 #define _ITERATOR_H_
