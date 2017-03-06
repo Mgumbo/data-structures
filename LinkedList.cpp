@@ -4,7 +4,7 @@
  * Date Completed: 13 April 2016
  *
  * Description: A file containing all of the implementation for the
- *				LinkedList class.
+ *		LinkedList class.
  *******************************************************************/
 #include "LinkedList.h"
 #include <assert.h>
