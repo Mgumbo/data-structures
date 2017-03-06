@@ -4,15 +4,15 @@
  * Date Completed: 13 April 2016
  *
  * Description: A header file defining a customized LinkedList
- *				class. This LinkedList functions as a doubly-
- *				linked list; that is, each Node in the list is
- *				attached to the Node before it as well as the
- *				Node following it. This LinkedList is managed
- *				with a sentinel Node, a Node that is attached
- *				to the first and last elements in the LinkedList,
- *				but does not contain a value. This LinkedList is
- *				also traversable by using the customized Iterator
- *				class.
+ *		class. This LinkedList functions as a doubly-
+ *		linked list; that is, each Node in the list is
+ *		attached to the Node before it as well as the
+ *		Node following it. This LinkedList is managed
+ *		with a sentinel Node, a Node that is attached
+ *		to the first and last elements in the LinkedList,
+ *		but does not contain a value. This LinkedList is
+ *		also traversable by using the customized Iterator
+ *		class.
  ******************************************************************/
 #ifndef _LINKEDLIST_H_
 #define _LINKEDLIST_H_
