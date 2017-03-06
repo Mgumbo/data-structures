@@ -4,7 +4,7 @@
  * Date Completed: 27 February 2016
  *
  * Description: File containing the implementation for
- *				the Myqueue class.
+ *		the Myqueue class.
  ******************************************************************/
 #include <iostream>
 #include "Mystack.h"
