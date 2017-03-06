@@ -4,7 +4,7 @@
  * Date Completed: 13 April 2016
  *
  * Description: A file containing all of the implementation for the
- *				Node class.
+ *		Node class.
  ******************************************************************/
 #include "Node.h"
 
