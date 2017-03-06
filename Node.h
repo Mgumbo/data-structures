@@ -4,12 +4,12 @@
  * Date Completed: 13 April 2016
  *
  * Description: A header file defining a customized Node class.
- *				This Node is meant to serve as an element in the
- *				custom LinkedList class, and has pointers to two
- *				other Nodes: the next Node in the LinkedList, and
- *				the previous Node in the LinkedList. This Node is
- *				implemented in this way so that the LinkedList can
- *				function as a doubly-linked list.
+ *		This Node is meant to serve as an element in the
+ *		custom LinkedList class, and has pointers to two
+ *		other Nodes: the next Node in the LinkedList, and
+ *		the previous Node in the LinkedList. This Node is
+ *		implemented in this way so that the LinkedList can
+ *		function as a doubly-linked list.
  ******************************************************************/
 #ifndef _NODE_H_
 #define _NODE_H_
