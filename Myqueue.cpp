@@ -4,7 +4,7 @@
  * Date Completed: 23 March 2016
  *
  * Description: File containing the implementation for
- *				the Myqueue class.
+ *		the Myqueue class.
  ******************************************************************/
 #include "Myqueue.h"
 #include <iostream>
