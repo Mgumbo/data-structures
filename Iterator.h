@@ -2,7 +2,7 @@
  * Author: Mgumbo
  *
  * Date Completed: 13 April 2016
- *
+ * 
  * Description: A header file defining a customized Iterator class
  *		that can be used to iterate through the custom
  *		LinkedList class. So it can function properly for
