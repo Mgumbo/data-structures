@@ -4,11 +4,11 @@
  * Date Completed: 23 March 2016
  *
  * Description: A class representing a queue, a data structure
- *				that functions as a list with a "First In, First
- *				Out" policy. The front and back of the queue can
- *				both be accessed, but items can only be added to
- *				the back of the queue, and items can only be 
- *				removed from the front.
+ *		that functions as a list with a "First In, First
+ *		Out" policy. The front and back of the queue can
+ *		both be accessed, but items can only be added to
+ *		the back of the queue, and items can only be 
+ *		removed from the front.
  ******************************************************************/
 #ifndef _MYQUEUE_H_
 #define _MYQUEUE_H_
