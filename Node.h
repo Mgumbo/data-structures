@@ -19,11 +19,6 @@
  **/
 namespace DataStructures
 {
-	/**
-	 * A class that represents an element in a doubly-linked
-	 * list, linked via pointers to both the next and previous
-	 * Nodes in the list.
-	 **/
 	template <class T>
 	class Node
 	{
