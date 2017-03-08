@@ -26,13 +26,6 @@
  **/
 namespace DataStructures
 {
-	/**
-	 * A class representing a list comprised of Nodes. Each
-	 * Node contains two pointers: one pointing to the Node
-	 * before it, and one pointing to the Node after. These
-	 * pointers are what "link" the list together, creating
-	 * the LinkedList.
-	 **/
 	template <class T>
 	class LinkedList
 	{
