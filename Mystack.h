@@ -16,13 +16,6 @@
 
 namespace DataStructures
 {
-	/**
-	* A class that represents a stack; i.e., a list that adheres to
-	* a "First In Last Out" policy. The only element of the list
-	* that can be accessed is the most recent one (the "top" of the
-	* "stack"). This is a template class, so any object instance of
-	* this class can be of any data type.
-	**/
 	template <class T>
 	class Mystack
 	{
