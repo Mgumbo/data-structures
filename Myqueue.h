@@ -19,13 +19,6 @@
  **/
 namespace DataStructures
 {
-	/**
-	 * A class representing a queue; that is, a list that adheres to
-	 * a "First In, First Out" policy. The front and back of the queue
-	 * can be accessed, but ONLY THE FRONT can be modified. This is a
-	 * template class, so any object instance of this class can be of
-	 * any data type.
-	 **/
 	template<class T>
 	class Myqueue
 	{
