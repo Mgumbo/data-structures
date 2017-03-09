@@ -12,9 +12,9 @@
 namespace DataStructures
 {
 	/**
-	* Default constructor. Initializes the front and back indexes of
-	* the queue to their default values, as well as the size to 0.
-	**/
+	 * Default constructor. Initializes the front and back indexes of
+	 * the queue to their default values, as well as the size to 0.
+	 **/
 	template<class T>
 	Myqueue<T>::Myqueue() : _front(0), _back(-1), _size(0)
 	{
@@ -22,10 +22,10 @@ namespace DataStructures
 	} //end constructor
 
 	/**
-	* Adds an item to the back of the queue if it is not already full.
-	* Treats the underlying array as a circular array; if the back index
-	* is at max value, it resets.
-	**/
+	 * Adds an item to the back of the queue if it is not already full.
+	 * Treats the underlying array as a circular array; if the back index
+	 * is at max value, it resets.
+	 **/
 	template<class T>
 	bool Myqueue<T>::push(T item)
 	{
@@ -44,10 +44,10 @@ namespace DataStructures
 	} //end push
 
 	/**
-	* Removes an item from the front of the queue if it is not already empty.
-	* Treats the underlying array as a circular array; if the front index
-	* is at max value, it resets.
-	**/
+	 * Removes an item from the front of the queue if it is not already empty.
+	 * Treats the underlying array as a circular array; if the front index
+	 * is at max value, it resets.
+	 **/
 	template<class T>
 	bool Myqueue<T>::pop()
 	{
@@ -65,9 +65,9 @@ namespace DataStructures
 	} //end pop
 
 	/**
-	* "Clears" the queue by resetting its indices and size to default values.
-	* Memory occupied by items in the queue will simply be overwritten.
-	**/
+	 * "Clears" the queue by resetting its indices and size to default values.
+	 * Memory occupied by items in the queue will simply be overwritten.
+	 **/
 	template<class T>
 	void Myqueue<T>::clear()
 	{
@@ -76,9 +76,9 @@ namespace DataStructures
 	} //end clear
 
 	/**
-	* Returns the front item of the queue if it exists. Otherwise, it
-	* returns NULL.
-	**/
+	 * Returns the front item of the queue if it exists. Otherwise, it
+	 * returns NULL.
+	 **/
 	template<class T>
 	T Myqueue<T>::getFront() const
 	{
@@ -86,9 +86,9 @@ namespace DataStructures
 	} //end getFront
 
 	/**
-	* Returns the back item of the queue if it exists. Otherwise, it
-	* returns NULL.
-	**/
+	 * Returns the back item of the queue if it exists. Otherwise, it
+	 * returns NULL.
+	 **/
 	template<class T>
 	T Myqueue<T>::getBack() const
 	{
@@ -96,8 +96,8 @@ namespace DataStructures
 	} //end getBack
 
 	/**
-	* Returns the number of elements in the queue.
-	**/
+	 * Returns the number of elements in the queue.
+	 **/
 	template<class T>
 	int Myqueue<T>::getSize() const
 	{
@@ -105,8 +105,8 @@ namespace DataStructures
 	} //end getSize
 
 	/**
-	* Returns true if there are no items in the queue.
-	**/
+	 * Returns true if there are no items in the queue.
+	 **/
 	template<class T>
 	bool Myqueue<T>::isEmpty() const
 	{
@@ -114,8 +114,8 @@ namespace DataStructures
 	} //end isEmpty
 
 	/**
-	* Returns true if the queue is at max capacity.
-	**/
+	 * Returns true if the queue is at max capacity.
+	 **/
 	template<class T>
 	bool Myqueue<T>::isFull() const
 	{
