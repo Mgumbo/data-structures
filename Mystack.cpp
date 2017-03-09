@@ -12,9 +12,9 @@
 namespace DataStructures
 {
 	/**
-	* Default constructor. Initializes the index for the top
-	* of the stack to the 0th index.
-	**/
+	 * Default constructor. Initializes the index for the top
+	 * of the stack to the 0th index.
+	 **/
 	template <class T>
 	Mystack<T>::Mystack()
 	{
@@ -22,12 +22,12 @@ namespace DataStructures
 	} //end constructor
 
 	/**
-	* Push an item onto the top of the stack. First checks
-	* if the stack is full, and if it is, then it prints an
-	* error message and does not add an item to the stack.
-	* If the stack is not full, an item is added to the top
-	* of the stack and the top index is incremented.
-	**/
+	 * Push an item onto the top of the stack. First checks
+	 * if the stack is full, and if it is, then it prints an
+	 * error message and does not add an item to the stack.
+	 * If the stack is not full, an item is added to the top
+	 * of the stack and the top index is incremented.
+	 **/
 	template <class T>
 	bool Mystack<T>::push(T item)
 	{
@@ -45,12 +45,12 @@ namespace DataStructures
 	} //end push
 
 	/**
-	* Remove the top item of the stack. If the stack is empty,
-	* print an error message and do not modify the stack.
-	* Otherwise, simply decrements the top index (without
-	* actually removing anything), as if more items are added,
-	* the previous values will simply be written over.
-	**/
+	 * Remove the top item of the stack. If the stack is empty,
+	 * print an error message and do not modify the stack.
+	 * Otherwise, simply decrements the top index (without
+	 * actually removing anything), as if more items are added,
+	 * the previous values will simply be written over.
+	 **/
 	template <class T>
 	bool Mystack<T>::pop()
 	{
@@ -68,10 +68,10 @@ namespace DataStructures
 	} //end pop
 
 	/**
-	* Remove all the items from the stack. Sets the top index
-	* to 0 (as adding more items will write over any previous
-	* items that would have been at a given index on the stack).
-	**/
+	 * Remove all the items from the stack. Sets the top index
+	 * to 0 (as adding more items will write over any previous
+	 * items that would have been at a given index on the stack).
+	 **/
 	template <class T>
 	void Mystack<T>::clear()
 	{
@@ -79,8 +79,8 @@ namespace DataStructures
 	} //end clear
 
 	/**
-	* Check whether or not the stack is at capacity.
-	**/
+	 * Check whether or not the stack is at capacity.
+	 **/
 	template <class T>
 	bool Mystack<T>::isFull() const
 	{
@@ -88,9 +88,9 @@ namespace DataStructures
 	} //end isFull
 
 	/**
-	* Check whether or not the stack has any items in it
-	* at all.
-	**/
+	 * Check whether or not the stack has any items in it
+	 * at all.
+	 **/
 	template <class T>
 	bool Mystack<T>::isEmpty() const
 	{
@@ -98,10 +98,10 @@ namespace DataStructures
 	} //end isEmpty
 
 	/**
-	* Return the top item of the stack. If the top index is
-	* 0 (meaning there are no items on the stack), this
-	* returns NULL.
-	**/
+	 * Return the top item of the stack. If the top index is
+	 * 0 (meaning there are no items on the stack), this
+	 * returns NULL.
+	 **/
 	template <class T>
 	T Mystack<T>::top() const
 	{
@@ -109,11 +109,11 @@ namespace DataStructures
 	} //end top
 
 	/**
-	* Return the size of the stack. Since the top index always
-	* points to the next available index of the stack, then
-	* returning the top index indicates the number of items
-	* in the stack.
-	**/
+	 * Return the size of the stack. Since the top index always
+	 * points to the next available index of the stack, then
+	 * returning the top index indicates the number of items
+	 * in the stack.
+	 **/
 	template <class T>
 	int Mystack<T>::size() const
 	{
